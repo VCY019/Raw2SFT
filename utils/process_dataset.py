@@ -17,7 +17,8 @@ def get_dataset(dataset_name, local_data_dir=None):
         dataset = load_dataset(dataset_name, split="train_sft")
     else:
         dataset_name = local_data_dir + dataset_name if local_data_dir is not None else dataset_name
-        dataset = load_dataset(dataset_name, split="train")
+        # dataset = load_dataset(dataset_name, split="train")
+        dataset = load_dataset("json", data_files=dataset_name, field="train")['train']
 
     return dataset
 
@@ -46,7 +47,10 @@ def process_sft_dataset(dataset_name, dataset, dataset_sample):
         dataset = dataset.rename_column("input", "instruction")
         dataset = dataset.rename_column("output", "response")
     else:
-        raise NotImplementedError(f"Dataset {dataset_name} is not supported.")
+        try:
+            dataset = dataset.map(alpaca_format, desc=f"Preprocessing {dataset_name} for unified format.")
+        except:
+            raise NotImplementedError(f"Dataset {dataset_name} is not supported.")
     dataset = dataset.shuffle(seed=2023)
     if dataset_sample:
         num_sample = min(len(dataset), dataset_sample)

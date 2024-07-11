@@ -1,0 +1,252 @@
+[
+    {
+        "context": "## The rental charge for a car is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. If a man paid $1.24 in rental charges, how many miles did he drive?\n## Total Rent = Rent for the first 0.25 mile + Rent After 0.25 mile\nRent for the first 0.25 mile = 34 cents\nRent After 0.25 mile = [6 cent/(1/5 mile)]*(x - 0.25) = 30(x-0.25)\nTherefore, Total Rent = 35 + 30(x - 0.25)\n124 = 34 + 30(x - 0.25)\n90 = 30(x - 0.25)\n3 = x - 0.25\nx = 3 + 0.25 = $3.25",
+        "instruction": "The rental charge for a car is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. If a man paid $1.24 in rental charges, how many miles did he drive?\nLet's think step by step.",
+        "response": "Total Rent = Rent for the first 0.25 mile + Rent After 0.25 mile\nRent for the first 0.25 mile = 34 cents\nRent After 0.25 mile = [6 cent/(1/5 mile)]*(x - 0.25) = 30(x-0.25)\nTherefore, Total Rent = 35 + 30(x - 0.25)\n124 = 34 + 30(x - 0.25)\n90 = 30(x - 0.25)\n3 = x - 0.25\nx = 3 + 0.25 = $3.25\nTherefore, the answer is 3.25"
+    },
+    {
+        "context": "## 10 women can complete a work in 9 days and 10 children take 12 days to complete the work. How many days will 6 women and 7 children take to complete the work?\n## 1 women's 1 day work = 1/90\n1 child's 1 day work = 1/120\n(6 women + 7 children)'s 1 day work\n= (6/90 + 7/120) = 1/8\n6 women and 7 children will complete the work in 8 days.",
+        "instruction": "10 women can complete a work in 9 days and 10 children take 12 days to complete the work. How many days will 6 women and 7 children take to complete the work?\nLet's think step by step.",
+        "response": "1 women's 1 day work = 1/90\n1 child's 1 day work = 1/120\n(6 women + 7 children)'s 1 day work\n= (6/90 + 7/120) = 1/8\n6 women and 7 children will complete the work in 8 days.\nTherefore, the answer is 8"
+    },
+    {
+        "context": "Question: Sum of the squares of three numbers is 351 and the sum of their products taken two at a time is 245. Find the sum?\nExplanation: (a + b + c)2 = a2 + b2 + c2 + 2(ab +bc + ca) = 351 + 2* 245\na + b + c = √841 = 29",
+        "instruction": "Sum of the squares of three numbers is 351 and the sum of their products taken two at a time is 245. Find the sum?\nLet's think step by step.",
+        "response": "(a + b + c)2 = a2 + b2 + c2 + 2(ab +bc + ca) = 351 + 2* 245\na + b + c = √841 = 29\nTherefore, the answer is 29"
+    },
+    {
+        "context": "If two numbers are in the ratio 2:3. If 10 is added to both of the numbers then the ratio becomes 3:4 then find the smallest number? - Explanation: 2:3\n2x + 10 : 3x + 10 = 3 : 4\n4[2x + 10] = 3[3x + 10]\n8x + 40 = 9x + 30\n9x - 8x = 40 - 30\nx = 10\nThen smallest number is = 2\n2x = 20",
+        "instruction": "If two numbers are in the ratio 2:3. If 10 is added to both of the numbers then the ratio becomes 3:4 then find the smallest number?\nLet's think step by step.",
+        "response": "2:3\n2x + 10 : 3x + 10 = 3 : 4\n4[2x + 10] = 3[3x + 10]\n8x + 40 = 9x + 30\n9x - 8x = 40 - 30\nx = 10\nThen smallest number is = 2\n2x = 20\nTherefore, the answer is 20"
+    },
+    {
+        "context": "In how many different ways can the letters of the word ‘ARMOUM’ be arranged? -> ARMOUR = 6 letter whereas R repeated twice 6! 6xSx4x3x2x1 => 360",
+        "instruction": "In how many different ways can the letters of the word ‘ARMOUM’ be arranged?\nLet's think step by step.",
+        "response": "ARMOUR = 6 letter whereas R repeated twice 6! 6xSx4x3x2x1 => 360\nTherefore, the answer is 360"
+    },
+    {
+        "context": "## A chair is bought for Rs.300/- and sold at Rs.420/- find gain or loss percentage\n## Formula = (Selling price ~ Cost price)/Cost price * 100\n= (450- 300)/300= 40% gain",
+        "instruction": "A chair is bought for Rs.300/- and sold at Rs.420/- find gain or loss percentage\nLet's think step by step.",
+        "response": "Formula = (Selling price ~ Cost price)/Cost price * 100\n= (450- 300)/300= 40% gain\nTherefore, the answer is 40% gain"
+    },
+    {
+        "context": "A woman complete a journey in 20 hours. She travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.\nLet's think step by step, 0.5x/21 + 0.5x/24 = 20\n--> x/21 + x/24 = 40\n--> x =448 km.",
+        "instruction": "A woman complete a journey in 20 hours. She travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.\nLet's think step by step.",
+        "response": "0.5x/21 + 0.5x/24 = 20\n--> x/21 + x/24 = 40\n--> x =448 km.\nTherefore, the answer is 448 km."
+    },
+    {
+        "context": "Question: Find the invalid no.from the following series 15, 16, 34, 105, 424, 2124, 12756\nExplanation: 2nd term = (1st term) * 1 + 1 = 15 *1 + 1 = 16.\n3rd term = (2nd term) * 2 + 2 = 16 * 2 + 2 = 34\n4th term = (3th term) *3 + 3 = 34 * 3 + 3 = 105\n5th term = (4th term) * 4 + 4 = 105 * 4 + 4 = 424\n6th term = (5th term) * 5 + 5 = 424 * 5 + 5 = 2125\n6th term should 2125 instead of 2124.",
+        "instruction": "Find the invalid no.from the following series 15, 16, 34, 105, 424, 2124, 12756\nLet's think step by step.",
+        "response": "2nd term = (1st term) * 1 + 1 = 15 *1 + 1 = 16.\n3rd term = (2nd term) * 2 + 2 = 16 * 2 + 2 = 34\n4th term = (3th term) *3 + 3 = 34 * 3 + 3 = 105\n5th term = (4th term) * 4 + 4 = 105 * 4 + 4 = 424\n6th term = (5th term) * 5 + 5 = 424 * 5 + 5 = 2125\n6th term should 2125 instead of 2124.\nTherefore, the answer is 2124"
+    },
+    {
+        "context": "In an election between two candidates, 10% of votes are were declares invalid. First candidate got 3600 votes which were 60% of the total valid votes . The total number of votes enrolled in that election was:\nLet's think step by step, 100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 3600 ( 18 × 200 = 3600)\n100% -------> 20000 votes (100 × 200 = 20000)",
+        "instruction": "In an election between two candidates, 10% of votes are were declares invalid. First candidate got 3600 votes which were 60% of the total valid votes . The total number of votes enrolled in that election was:\nLet's think step by step.",
+        "response": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 3600 ( 18 × 200 = 3600)\n100% -------> 20000 votes (100 × 200 = 20000)\nTherefore, the answer is 20000"
+    },
+    {
+        "context": "Find a 8 digit number that if multiplied by the number 9 or any of its multiplications products (18, 27, 36, 45,..) will result in the multiplication factor repeated (n) number of times.\nLet's think step by step, The number is: 12345679\n12345679 * 9 = 111111111\n12345679 * 18 = 222222222\n12345679 * 27 = 333333333\nAnd so on...",
+        "instruction": "Find a 8 digit number that if multiplied by the number 9 or any of its multiplications products (18, 27, 36, 45,..) will result in the multiplication factor repeated (n) number of times.\nLet's think step by step.",
+        "response": "The number is: 12345679\n12345679 * 9 = 111111111\n12345679 * 18 = 222222222\n12345679 * 27 = 333333333\nAnd so on...\nTherefore, the answer is 12345679"
+    },
+    {
+        "context": "Q: What will come in place of the x in the following Number series? 46080, 3840, ?, 48, 8, 2, 1\nR: 46080 /12 = 3840\n3840 /10 = 384\n384 /8 = 48\n48 /6 = 8\n8/4 = 2\n2 /2 = 1",
+        "instruction": "What will come in place of the x in the following Number series? 46080, 3840, ?, 48, 8, 2, 1\nLet's think step by step.",
+        "response": "46080 /12 = 3840\n3840 /10 = 384\n384 /8 = 48\n48 /6 = 8\n8/4 = 2\n2 /2 = 1\nTherefore, the answer is 384"
+    },
+    {
+        "context": "Find the number that fits somewhere into the middle of the series. Some of the items involve both numbers and letters\nLook at this series: C19, E21, __, I25, K27, ... What number should fill the blank? G23\nIn this series, the letters progress by 2, and the numbers increase by 2.",
+        "instruction": "Find the number that fits somewhere into the middle of the series. Some of the items involve both numbers and letters\nLook at this series: C19, E21, __, I25, K27, ... What number should fill the blank?\nLet's think step by step.",
+        "response": "G23\nIn this series, the letters progress by 2, and the numbers increase by 2.\nTherefore, the answer is E21"
+    },
+    {
+        "context": "## 3, 7, 15, 31, 63, ?\n## 127\nEach number in the series is the preceding number multiplied by 2 and then increased by 1.",
+        "instruction": "3, 7, 15, 31, 63, ?\nLet's think step by step.",
+        "response": "127\nEach number in the series is the preceding number multiplied by 2 and then increased by 1.\nTherefore, the answer is 127"
+    },
+    {
+        "context": "Three people are playing cards. What is the probability that a card drawn from a pack of 52 cards will be a diamond or a king? -> Here, n(S) = 52\nThere are 13 cards of diamond (including one king) and there are 3 more kings.\nLet E = event of getting a diamond or a king.\nThen, n(E) = (13 + 3) = 16\nP (E) = 16 / 52 = 4/13",
+        "instruction": "Three people are playing cards. What is the probability that a card drawn from a pack of 52 cards will be a diamond or a king?\nLet's think step by step.",
+        "response": "Here, n(S) = 52\nThere are 13 cards of diamond (including one king) and there are 3 more kings.\nLet E = event of getting a diamond or a king.\nThen, n(E) = (13 + 3) = 16\nP (E) = 16 / 52 = 4/13\nTherefore, the answer is 4/13"
+    },
+    {
+        "context": "Q: x is the product of each integer from 1 to 25, inclusive and y=100^k, where k is an integer . What is the greatest value of k for which y is a factor of x?\nA: The number of trailing zeros in the decimal representation of n!, the factorial of a non-negative integer n, can be determined with this formula:\nn5+n52+n53+...+n5k, where k must be chosen such that 5k≤n\nx = 1*2*3....*25 = 25!\nNo. of trailing zeros in 25! = 25/5 + 25/5^2 = 6\n100^k = 10^2k → k = 6/2 = 3",
+        "instruction": "x is the product of each integer from 1 to 25, inclusive and y=100^k, where k is an integer . What is the greatest value of k for which y is a factor of x?\nLet's think step by step.",
+        "response": "The number of trailing zeros in the decimal representation of n!, the factorial of a non-negative integer n, can be determined with this formula:\nn5+n52+n53+...+n5k, where k must be chosen such that 5k≤n\nx = 1*2*3....*25 = 25!\nNo. of trailing zeros in 25! = 25/5 + 25/5^2 = 6\n100^k = 10^2k → k = 6/2 = 3\nTherefore, the answer is 3"
+    },
+    {
+        "context": "A box contains 4 red chips and 4 blue chips. If two chips are selected at random without replacement, what is the probability that the chips are different colors?\n\nTotal selection ways: 8C2=8!/4!4!=28\nSelecting one blue chip out of two: 4C1=4!/1!3!=4\nSelecting one red chip out of four: 4C1=4!/1!3!=4\nThus, (4C1*4C1)/8C2=(4*4)/28=16/28=4/7",
+        "instruction": "A box contains 4 red chips and 4 blue chips. If two chips are selected at random without replacement, what is the probability that the chips are different colors?\nLet's think step by step.",
+        "response": "Total selection ways: 8C2=8!/4!4!=28\nSelecting one blue chip out of two: 4C1=4!/1!3!=4\nSelecting one red chip out of four: 4C1=4!/1!3!=4\nThus, (4C1*4C1)/8C2=(4*4)/28=16/28=4/7\nTherefore, the answer is 4/7"
+    },
+    {
+        "context": "On flipping 3 coins together what is the outcomes for at least two tail? [Sample space, S = {HHH, HHT, HTH, THH, TTH, THT, HTT, TTT}\nFavorable outcomes for at least two heads\n= favorable outcomes for exactly two heads and favorable outcomes for more than two heads\n= {TTH, HTT, TTT}\n3/8]",
+        "instruction": "On flipping 3 coins together what is the outcomes for at least two tail?\nLet's think step by step.",
+        "response": "Sample space, S = {HHH, HHT, HTH, THH, TTH, THT, HTT, TTT}\nFavorable outcomes for at least two heads\n= favorable outcomes for exactly two heads and favorable outcomes for more than two heads\n= {TTH, HTT, TTT}\n3/8\nTherefore, the answer is 3/8"
+    },
+    {
+        "context": "Water boils at 212°F or 100°C and melts at 32°F or 0°C . If the temperature of the particular day is 35°C , it is equal to\n\n(Explanation: Let F and C denotes the temparature in Fahrenheit anid Celcsius respectively.\nThen, (F - 32) /(212 - 32) = (C - 0)/(100 - 0), if c = 35, then F = 95.)",
+        "instruction": "Water boils at 212°F or 100°C and melts at 32°F or 0°C . If the temperature of the particular day is 35°C , it is equal to\nLet's think step by step.",
+        "response": "Let F and C denotes the temparature in Fahrenheit anid Celcsius respectively.\nThen, (F - 32) /(212 - 32) = (C - 0)/(100 - 0), if c = 35, then F = 95.\nTherefore, the answer is 95"
+    },
+    {
+        "context": "7% of the total quantity of rice is lost in grinding when a country has to import 6 million tonnes, but when only 7 3/4% is lost, it can import 3 million tonnes. Find the quantity of rice grown in the country.\n\nLet x be the total grown quantity of wheat. According to the question\n(7%of x)+ 64 31 %of x)+3 7x 31x => 100+ 6 = 400 + 3 1200 x = — 400 million tonnes rice grown",
+        "instruction": "7% of the total quantity of rice is lost in grinding when a country has to import 6 million tonnes, but when only 7 3/4% is lost, it can import 3 million tonnes. Find the quantity of rice grown in the country.\nLet's think step by step.",
+        "response": "Let x be the total grown quantity of wheat. According to the question\n(7%of x)+ 64 31 %of x)+3 7x 31x => 100+ 6 = 400 + 3 1200 x = — 400 million tonnes rice grown\nTherefore, the answer is 400"
+    },
+    {
+        "context": "George went to a fruit market with certain amount of money. With this money he can buy either 50 oranges or 40 mangoes. He retains 15% of the money for taxi fare and buys 15 mangoes. How many oranges can he buy?\n\nLet the amount of money be 200\nLet cost of 1 Orange be 4\nLet cost of 1 mango be 5\nHe decides to retain 15% of 200 = 30 for taxi fare, so he is left with 170\nHe buys 20 mangoes ( @ 5) so he spends 100\nMoney left is 70 (170 - 100)\nNo of oranges he can buy = 70/4 =>17,5\nSo, George can buy 15 Oranges.",
+        "instruction": "George went to a fruit market with certain amount of money. With this money he can buy either 50 oranges or 40 mangoes. He retains 15% of the money for taxi fare and buys 15 mangoes. How many oranges can he buy?\nLet's think step by step.",
+        "response": "Let the amount of money be 200\nLet cost of 1 Orange be 4\nLet cost of 1 mango be 5\nHe decides to retain 15% of 200 = 30 for taxi fare, so he is left with 170\nHe buys 20 mangoes ( @ 5) so he spends 100\nMoney left is 70 (170 - 100)\nNo of oranges he can buy = 70/4 =>17,5\nSo, George can buy 15 Oranges.\nTherefore, the answer is 17.5"
+    },
+    {
+        "context": "In the interior of a forest, a certain number of apes equal to the square of one-fourth of the total number are playing and having great fun. The remaining four apes are on a hill and the echo of their shrieks by the adjoining hills frightens them. They came and join the apes in the forest and play with enthusiasm. What is the total number of apes? - Explanation: Let total number be x\nNo in the interior = (x/4)^2\nNo outside = 4\nSo : x - (x/4)^2=4\nx^2-16x+64=0\n(x-8)^2=0\nSo x=8",
+        "instruction": "In the interior of a forest, a certain number of apes equal to the square of one-fourth of the total number are playing and having great fun. The remaining four apes are on a hill and the echo of their shrieks by the adjoining hills frightens them. They came and join the apes in the forest and play with enthusiasm. What is the total number of apes?\nLet's think step by step.",
+        "response": "Let total number be x\nNo in the interior = (x/4)^2\nNo outside = 4\nSo : x - (x/4)^2=4\nx^2-16x+64=0\n(x-8)^2=0\nSo x=8\nTherefore, the answer is 8"
+    },
+    {
+        "context": "If m > 0 and y is m percent of x, then, in terms of m, x is what percent of y?\n\n(Explanation: y= m/100 * x\nSo x= 100/m * y\nSo x= (10000/m)/100 *y)",
+        "instruction": "If m > 0 and y is m percent of x, then, in terms of m, x is what percent of y?\nLet's think step by step.",
+        "response": "y= m/100 * x\nSo x= 100/m * y\nSo x= (10000/m)/100 *y\nTherefore, the answer is c) 10,000/m"
+    },
+    {
+        "context": "A man purchased 3 blankets @ Rs.100 each, 5 blankets @ Rs.150 each and two blankets at a certain rate which is now slipped off from his memory. But he remembers that the average price of the blankets was Rs.150. Find the unknown rate of two blankets?\n\n\nExplanation:\n10 * 150 = 1500\n3 * 100 + 5 * 150 = 1050\n1500 – 1050 = 450",
+        "instruction": "A man purchased 3 blankets @ Rs.100 each, 5 blankets @ Rs.150 each and two blankets at a certain rate which is now slipped off from his memory. But he remembers that the average price of the blankets was Rs.150. Find the unknown rate of two blankets?\nLet's think step by step.",
+        "response": "Explanation:\n10 * 150 = 1500\n3 * 100 + 5 * 150 = 1050\n1500 – 1050 = 450\nTherefore, the answer is 450"
+    },
+    {
+        "context": "If x and y are odd integers, which of the following must always be a non-integer\n\n(Explanation: as X and Y are odd, multiplication of x and y would result in odd integer\n(Odd Integer)/4 will always be non integer.)",
+        "instruction": "If x and y are odd integers, which of the following must always be a non-integer\nLet's think step by step.",
+        "response": "as X and Y are odd, multiplication of x and y would result in odd integer\n(Odd Integer)/4 will always be non integer.\nTherefore, the answer is xy/4"
+    },
+    {
+        "context": "From below option 48 is divisible by which one? [48/3 = 16]",
+        "instruction": "From below option 48 is divisible by which one?\nLet's think step by step.",
+        "response": "48/3 = 16\nTherefore, the answer is A)3"
+    },
+    {
+        "context": "A no. when divided by the sum of 555 and 445 gives 2times their difference as quotient & 60 as remainder. Find the no. is? (555 + 445) * 2 * 110 + 60 = 220000 + 60 = 220060",
+        "instruction": "A no. when divided by the sum of 555 and 445 gives 2times their difference as quotient & 60 as remainder. Find the no. is?\nLet's think step by step.",
+        "response": "(555 + 445) * 2 * 110 + 60 = 220000 + 60 = 220060\nTherefore, the answer is 220060"
+    },
+    {
+        "context": "Q: Mangala completes a piece of work in 18 days, Raju completes the same work in 40 days. If both of them work together, then the number of days required to complete the work is\nA: If A can complete a work in x days and B can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days.\nThat is, the required No. of days = 18 Ã— 40/48 = 15 days.",
+        "instruction": "Mangala completes a piece of work in 18 days, Raju completes the same work in 40 days. If both of them work together, then the number of days required to complete the work is\nLet's think step by step.",
+        "response": "If A can complete a work in x days and B can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days.\nThat is, the required No. of days = 18 Ã— 40/48 = 15 days.\nTherefore, the answer is 15 days"
+    },
+    {
+        "context": "Q: What numbers should go on the bottom line?\n3 6 9 15\n8 2 10 12\n11 8 19 27\n19 10 29 39\n? ? ? ?\nA: 30 18 48 66.\nStarting at the top, add pairs of numbers in each column to arrive at the next number.",
+        "instruction": "What numbers should go on the bottom line?\n3 6 9 15\n8 2 10 12\n11 8 19 27\n19 10 29 39\n? ? ? ?\nLet's think step by step.",
+        "response": "30 18 48 66.\nStarting at the top, add pairs of numbers in each column to arrive at the next number.\nTherefore, the answer is 30 18 48 66"
+    },
+    {
+        "context": "In a certain province in Russia there are 15 cities. If a single road segment connects only two cities, how many road segments are required in order to connect the cities so that each city is connected to all other cities with a single road segment? || Method-1:\nRussia has Total Cities = 15 and each city should be connected with every other city\nSo Total Roads required to connect 1st City with other 14 cities = 14\nNow 1st City is connected with all other cities so,\nSo Total Roads required to connect 2nd City with 13 cities (Other than 1st) = 13\nNow 1st and 2nd Cities are connected with all other cities so,\nSo Total Roads required to connect 3rd City with 12 cities (Other than 1st, and 2nd) = 12\n......and so on...\nTotal Roads required = 14 + 13 + 12 + 11 + 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 105",
+        "instruction": "In a certain province in Russia there are 15 cities. If a single road segment connects only two cities, how many road segments are required in order to connect the cities so that each city is connected to all other cities with a single road segment?\nLet's think step by step.",
+        "response": "Method-1:\nRussia has Total Cities = 15 and each city should be connected with every other city\nSo Total Roads required to connect 1st City with other 14 cities = 14\nNow 1st City is connected with all other cities so,\nSo Total Roads required to connect 2nd City with 13 cities (Other than 1st) = 13\nNow 1st and 2nd Cities are connected with all other cities so,\nSo Total Roads required to connect 3rd City with 12 cities (Other than 1st, and 2nd) = 12\n......and so on...\nTotal Roads required = 14 + 13 + 12 + 11 + 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 105\nTherefore, the answer is 105"
+    },
+    {
+        "context": "What percent is 240 of 90? 240/90 = 8/3\n8/3 × 100 = 800/3 = 266 2/3 %",
+        "instruction": "What percent is 240 of 90?\nLet's think step by step.",
+        "response": "240/90 = 8/3\n8/3 × 100 = 800/3 = 266 2/3 %\nTherefore, the answer is 266 2/3 %"
+    },
+    {
+        "context": "Question: The average of seven numbers is 18. The average of first three numbers is 14 and the average of last three numbers is 23. What is the middle number?\nExplanation: The total of seven numbers = 7X18 = 126\nThe total of first 3 and last 3 numbers is = 3 X 14+3 X 23 = 111\nSo, the middle number is (126 - 111 ) = 15",
+        "instruction": "The average of seven numbers is 18. The average of first three numbers is 14 and the average of last three numbers is 23. What is the middle number?\nLet's think step by step.",
+        "response": "The total of seven numbers = 7X18 = 126\nThe total of first 3 and last 3 numbers is = 3 X 14+3 X 23 = 111\nSo, the middle number is (126 - 111 ) = 15\nTherefore, the answer is 15"
+    },
+    {
+        "context": "Q: Four barrels of water have an average capacity of 8 gallons. What is the maximum possible capacity of the smallest barrel Q if the median is 10 gallons?\nA: Suppose 4 barrels are B1, B2, B3, B4 in ascending capacity.\n(B1+B2+B3+B4)/4 = 8\nB1+B2+B3+B4=32\nmedian is 10 ....... as the no. of terms are even i.e 4, median = (B2+B3)/2\n==> B2+B3 = 20\nnow we have B1+B4 = 32-20 =12\nOnly the following possible cases can be there :\n1,9,11,11\n1,10,10,11\n2,10,10,10\nMax value of smallest barrel Q= 2",
+        "instruction": "Four barrels of water have an average capacity of 8 gallons. What is the maximum possible capacity of the smallest barrel Q if the median is 10 gallons?\nLet's think step by step.",
+        "response": "Suppose 4 barrels are B1, B2, B3, B4 in ascending capacity.\n(B1+B2+B3+B4)/4 = 8\nB1+B2+B3+B4=32\nmedian is 10 ....... as the no. of terms are even i.e 4, median = (B2+B3)/2\n==> B2+B3 = 20\nnow we have B1+B4 = 32-20 =12\nOnly the following possible cases can be there :\n1,9,11,11\n1,10,10,11\n2,10,10,10\nMax value of smallest barrel Q= 2\nTherefore, the answer is 2"
+    },
+    {
+        "context": "Q: A bag contains 12 white and 18 black balls. 2balls are drawn in succession. What is the probability that first is white and second is black?\nA: The probability that first ball is white:\n=12C130C1=12C130C1\n=1230=1230\n=25=25\nSince, the ball is not replaced; hence the number of balls left in bag is 29.\nHence, the probability the second ball is black:\n=18C129C1=18C129C1\n=1829=1829\nRequired probability,\n=(25)×(1829)=(25)×(1829)\n=36/145",
+        "instruction": "A bag contains 12 white and 18 black balls. 2balls are drawn in succession. What is the probability that first is white and second is black?\nLet's think step by step.",
+        "response": "The probability that first ball is white:\n=12C130C1=12C130C1\n=1230=1230\n=25=25\nSince, the ball is not replaced; hence the number of balls left in bag is 29.\nHence, the probability the second ball is black:\n=18C129C1=18C129C1\n=1829=1829\nRequired probability,\n=(25)×(1829)=(25)×(1829)\n=36/145\nTherefore, the answer is 36/145"
+    },
+    {
+        "context": "A and B can do a work in 5 days and 10 days respectively. A starts the work and B joins him after 2 days. In how many days can they complete the remaining work? -> 2 days\nWork done by A in 2 days = 2/5\nRemaining work = 3/5\nWork done by both A and B in one day = 1/5 + 1/10 = 3/10\nRemaining work = 3/5 * 10/3 = 2 days.",
+        "instruction": "A and B can do a work in 5 days and 10 days respectively. A starts the work and B joins him after 2 days. In how many days can they complete the remaining work?\nLet's think step by step.",
+        "response": "2 days\nWork done by A in 2 days = 2/5\nRemaining work = 3/5\nWork done by both A and B in one day = 1/5 + 1/10 = 3/10\nRemaining work = 3/5 * 10/3 = 2 days.\nTherefore, the answer is 2 days"
+    },
+    {
+        "context": "Divide 71 into 2 parts such that 1 part exceeds the other by 8. What are the 2 no.'s in that part? [Let $let n$ be the smaller and 71 - n be the larger number. Now, since the larger number exceeds the smaller number by 7, we can form the equation\nlarger number – smaller number = 7\nwhich is equivalent to\nSimplifying, we have 71 - 2n = 7. This gives us 2n = 78 which implies that the larger number is . The smaller is 71-39=31.]",
+        "instruction": "Divide 71 into 2 parts such that 1 part exceeds the other by 8. What are the 2 no.'s in that part?\nLet's think step by step.",
+        "response": "Let $let n$ be the smaller and 71 - n be the larger number. Now, since the larger number exceeds the smaller number by 7, we can form the equation\nlarger number – smaller number = 7\nwhich is equivalent to\nSimplifying, we have 71 - 2n = 7. This gives us 2n = 78 which implies that the larger number is . The smaller is 71-39=31.\nTherefore, the answer is 31"
+    },
+    {
+        "context": "Find the value of 72517 x 9999 = m? [72517 x 9999 = 72517 x (10000 - 1)\n= 72517 x 10000 - 72517 x 1\n= 725170000 - 72517\n= 725097483]",
+        "instruction": "Find the value of 72517 x 9999 = m?\nLet's think step by step.",
+        "response": "72517 x 9999 = 72517 x (10000 - 1)\n= 72517 x 10000 - 72517 x 1\n= 725170000 - 72517\n= 725097483\nTherefore, the answer is 725097483"
+    },
+    {
+        "context": "## A does a work in 10 days and B does the same work in 5 days. In how many days they together will do the same work ?\n## Firstly we will find 1 day work of both A and B, then by adding we can get collective days for them,\nSo,\nA's 1 day work = 1/10\nB's 1 day work = 1/15\n(A+B)'s 1 day work =\n(1/10+1/5)=(1+2/10)= 3/10",
+        "instruction": "A does a work in 10 days and B does the same work in 5 days. In how many days they together will do the same work ?\nLet's think step by step.",
+        "response": "Firstly we will find 1 day work of both A and B, then by adding we can get collective days for them,\nSo,\nA's 1 day work = 1/10\nB's 1 day work = 1/15\n(A+B)'s 1 day work =\n(1/10+1/5)=(1+2/10)= 3/10\nTherefore, the answer is 3/10"
+    },
+    {
+        "context": "What is the diffference between the place value and face value of 4 in the numeral 2694?\nLet's think step by step, place value of 4 = 4 * 1 = 4\nface value of 4 = 4\n4 - 4 = 0",
+        "instruction": "What is the diffference between the place value and face value of 4 in the numeral 2694?\nLet's think step by step.",
+        "response": "place value of 4 = 4 * 1 = 4\nface value of 4 = 4\n4 - 4 = 0\nTherefore, the answer is 0"
+    },
+    {
+        "context": "Peeta asks Katniss, 'It is 6 am as per my watch right now.Do you know what will be the time 23, 999, 998 hours later?'\nKatniss knows the answer. Do you ?\n\n\n3am\nThe time after 24, 000, 000 hours will be the same as it is now. We want the time 3 hours before that and thus you can deduct three hours from 9 pm. So the time will be 6 pm.",
+        "instruction": "Peeta asks Katniss, 'It is 6 am as per my watch right now.Do you know what will be the time 23, 999, 998 hours later?'\nKatniss knows the answer. Do you ?\nLet's think step by step.",
+        "response": "3am\nThe time after 24, 000, 000 hours will be the same as it is now. We want the time 3 hours before that and thus you can deduct three hours from 9 pm. So the time will be 6 pm.\nTherefore, the answer is 3am"
+    },
+    {
+        "context": "If 180/x is an integer and 108/x is an integer, which of the following must be true?\nI. 9/x is an integer.\nII. 12/x is an integer.\nIII. 36/x is an integer. [The largest possible value of x is 36 (the greatest common factor of 180 and 108), and if x=36 then]",
+        "instruction": "If 180/x is an integer and 108/x is an integer, which of the following must be true?\nI. 9/x is an integer.\nII. 12/x is an integer.\nIII. 36/x is an integer.\nLet's think step by step.",
+        "response": "The largest possible value of x is 36 (the greatest common factor of 180 and 108), and if x=36 then\nTherefore, the answer is III only"
+    },
+    {
+        "context": "Jones covered a distance of 50 miles on his first trip. On a later trip he traveled 300 miles while going three times as fast. His new time compared with the old time was: || et speed of the 1st trip x miles / hr. and speed of the 2nd trip 3x / hr.\nWe know that\nSpeed = Distance/Time.\nOr, Time = Distance/Speed.\nSo, times taken to covered a distance of 50 miles on his first trip = 50/x hr.\nAnd times taken to covered a distance of 300 miles on his later trip = 300/3x hr.\n= 100/x hr.\nSo we can clearly see that his new time compared with the old time was: twice as much.",
+        "instruction": "Jones covered a distance of 50 miles on his first trip. On a later trip he traveled 300 miles while going three times as fast. His new time compared with the old time was:\nLet's think step by step.",
+        "response": "et speed of the 1st trip x miles / hr. and speed of the 2nd trip 3x / hr.\nWe know that\nSpeed = Distance/Time.\nOr, Time = Distance/Speed.\nSo, times taken to covered a distance of 50 miles on his first trip = 50/x hr.\nAnd times taken to covered a distance of 300 miles on his later trip = 300/3x hr.\n= 100/x hr.\nSo we can clearly see that his new time compared with the old time was: twice as much.\nTherefore, the answer is twice as much"
+    },
+    {
+        "context": "In how many ways can the letters of the word ASTERIX be arranged in a row so that the vowels appear in alphabetic order?\n\n\nthree letters can be arranged in 3! ways.\nonly one combination AEI is required.\n7 letters can be arranged in 7! ways.\nthus 7!/ 3! * 1 = 840.",
+        "instruction": "In how many ways can the letters of the word ASTERIX be arranged in a row so that the vowels appear in alphabetic order?\nLet's think step by step.",
+        "response": "three letters can be arranged in 3! ways.\nonly one combination AEI is required.\n7 letters can be arranged in 7! ways.\nthus 7!/ 3! * 1 = 840.\nTherefore, the answer is 840 eight hundred forty"
+    },
+    {
+        "context": "Q: It is given that 2^32 + 1 is exactly divisible by a certain number. Which one of the following is also divisible by the same number R?\nR: a³ + b³ =(a+b)(a² -ab +b²)\nNow, let (2^32 + 1) be (a+b)\na³ + b³ = (2^96 + 1)\nNow, as mentioned in formula above,\na³ + b³ is always divisible by (a+b)\nSo any factor of R=(a+b) is a factor of (a³ + b³)\nHenca",
+        "instruction": "It is given that 2^32 + 1 is exactly divisible by a certain number. Which one of the following is also divisible by the same number R?\nLet's think step by step.",
+        "response": "a³ + b³ =(a+b)(a² -ab +b²)\nNow, let (2^32 + 1) be (a+b)\na³ + b³ = (2^96 + 1)\nNow, as mentioned in formula above,\na³ + b³ is always divisible by (a+b)\nSo any factor of R=(a+b) is a factor of (a³ + b³)\nHenca\nTherefore, the answer is a. 2^96 + 1"
+    },
+    {
+        "context": "How many minutes are there in two right angles? 2880\nThey are the hour-minute, hour-second, and minute-second. Each hour, the minute hand will be at a right angle twice, so that's 48 right angles -- 2 for each hour of the day. Each hour, the second hand will go around 60 times and have 2 right angles for each, that's 120 right angles per hour or 120 * 24 = 2880",
+        "instruction": "How many minutes are there in two right angles?\nLet's think step by step.",
+        "response": "2880\nThey are the hour-minute, hour-second, and minute-second. Each hour, the minute hand will be at a right angle twice, so that's 48 right angles -- 2 for each hour of the day. Each hour, the second hand will go around 60 times and have 2 right angles for each, that's 120 right angles per hour or 120 * 24 = 2880\nTherefore, the answer is 2880"
+    },
+    {
+        "context": "A rectangular rug with side lengths of 2 feet and 7 feet is placed on a square floor that has an area of 64 square feet. If the surface of the rug does not extend beyond the area of the floor, what fraction of the area of the floor is not covered by the rug? -> Area of the rectangular rug = 2*7 = 14\nFraction not covered by the rug = (Total Area - Rug area) / Total Area\n= (64 - 14)/64\n= 25/32",
+        "instruction": "A rectangular rug with side lengths of 2 feet and 7 feet is placed on a square floor that has an area of 64 square feet. If the surface of the rug does not extend beyond the area of the floor, what fraction of the area of the floor is not covered by the rug?\nLet's think step by step.",
+        "response": "Area of the rectangular rug = 2*7 = 14\nFraction not covered by the rug = (Total Area - Rug area) / Total Area\n= (64 - 14)/64\n= 25/32\nTherefore, the answer is 25/32"
+    },
+    {
+        "context": "Q: A football coach must choose 5freshers from a team of 12players. How many different ways can the coach choose the freshers?\nA: Choose 5 starters from a team of 12 players. Order is not important.\n\\inline {\\color{Black} 12C_{5}}= 729",
+        "instruction": "A football coach must choose 5freshers from a team of 12players. How many different ways can the coach choose the freshers?\nLet's think step by step.",
+        "response": "Choose 5 starters from a team of 12 players. Order is not important.\n\\inline {\\color{Black} 12C_{5}}= 729\nTherefore, the answer is 729"
+    },
+    {
+        "context": "Find the value of y from (12)^3 x 6^3 ÷ 432 = y? 5184",
+        "instruction": "Find the value of y from (12)^3 x 6^3 ÷ 432 = y?\nLet's think step by step.",
+        "response": "5184\nTherefore, the answer is 864"
+    },
+    {
+        "context": "Right now, Al and Eliot have bank accounts, and Al has more money than Eliot. The difference between their two accounts is 1/10 of the sum of their two accounts. If Al’s account were to increase by 10% and Eliot’s account were to increase by 20%, then Al would have exactly $22 more than Eliot in his account. How much money does Eliot have in his account right now?\nLet's think step by step, Lets assume Al have amount A in his bank account and Eliot's bank account got E amount. We can form an equation from the first condition.\nA-E = 1/10*(A+E) ==> 9A = 11E ------------ (1)\nSecond condition gives two different amounts, Al's amount = 1.1A and Eliot's amount = 1.2E\n1.1A = 22 + 1.2E ==> 11A =220 +12E -------(2)\nSubstituting (1) in (2):\n11E/9*11 = 220+12E or (121/9-12) E = 220 or 13/9 E =220 E = 220*9/13 =152.3",
+        "instruction": "Right now, Al and Eliot have bank accounts, and Al has more money than Eliot. The difference between their two accounts is 1/10 of the sum of their two accounts. If Al’s account were to increase by 10% and Eliot’s account were to increase by 20%, then Al would have exactly $22 more than Eliot in his account. How much money does Eliot have in his account right now?\nLet's think step by step.",
+        "response": "Lets assume Al have amount A in his bank account and Eliot's bank account got E amount. We can form an equation from the first condition.\nA-E = 1/10*(A+E) ==> 9A = 11E ------------ (1)\nSecond condition gives two different amounts, Al's amount = 1.1A and Eliot's amount = 1.2E\n1.1A = 22 + 1.2E ==> 11A =220 +12E -------(2)\nSubstituting (1) in (2):\n11E/9*11 = 220+12E or (121/9-12) E = 220 or 13/9 E =220 E = 220*9/13 =152.3\nTherefore, the answer is $152.3"
+    },
+    {
+        "context": "## What is the probability Q of randomly selecting an arrangement of the letters of the wordMEDITERRANEANin which the first letter is E and the last letter is R?\n## Why do you calculate the total combinations and everything, it is much easier to calculate as follows:\n3/13 * 1 * 1 * 1 * 1 ..... * 2/12 = 6/156 = 1/26\nThis is because 3/13 = Probability that first letter will be E and 2/12 = probability that thefirstletter will be R. Between everything else cuts down to 1*1*1... e.g. probability Q of the second letter is 11/11 = 1, > we do not care what's in between.",
+        "instruction": "What is the probability Q of randomly selecting an arrangement of the letters of the wordMEDITERRANEANin which the first letter is E and the last letter is R?\nLet's think step by step.",
+        "response": "Why do you calculate the total combinations and everything, it is much easier to calculate as follows:\n3/13 * 1 * 1 * 1 * 1 ..... * 2/12 = 6/156 = 1/26\nThis is because 3/13 = Probability that first letter will be E and 2/12 = probability that thefirstletter will be R. Between everything else cuts down to 1*1*1... e.g. probability Q of the second letter is 11/11 = 1, > we do not care what's in between.\nTherefore, the answer is 1/26"
+    },
+    {
+        "context": "Q: There r 4 prime numbers in ascending order. The multiplication of first 3 is 385 and that of last 3is 1001. what is the last number is\nR: Explanation:\nabcbcd=3851001=>ad=513\nabcbcd=3851001=>ad=513\nSo d = 13",
+        "instruction": "There r 4 prime numbers in ascending order. The multiplication of first 3 is 385 and that of last 3is 1001. what is the last number is\nLet's think step by step.",
+        "response": "Explanation:\nabcbcd=3851001=>ad=513\nabcbcd=3851001=>ad=513\nSo d = 13\nTherefore, the answer is 13"
+    }
+]

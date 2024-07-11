@@ -1,0 +1,17 @@
+[
+    {
+        "context": "The first five numbers in a regular sequence are 4, 10, X, 46, and 94. What is x ?\n\nit is a good Q to learn to pick up number properties in the given set, even if we do not get a Q on these line in actuals..\nwhen we see the sequence 4, 10, x, 46, and 94, we see that each succeeding number is some value more than twice the previous number..\n10=2*4+2..\nx=2*10+2 = 22..\nand so on..\nso next number= 22",
+        "instruction": "The first five numbers in a regular sequence are 4, 10, X, 46, and 94. What is x ?\nOptions:\n- 28\n- 26\n- 30\n- 22\n- 24\nLet's think step by step.",
+        "response": "it is a good Q to learn to pick up number properties in the given set, even if we do not get a Q on these line in actuals..\nwhen we see the sequence 4, 10, x, 46, and 94, we see that each succeeding number is some value more than twice the previous number..\n10=2*4+2..\nx=2*10+2 = 22..\nand so on..\nso next number= 22\nTherefore, the answer is 22"
+    },
+    {
+        "context": "A school currently maintains a fixed number of students per class. If the ratio of students per class were to be increased by 1, 10 fewer classes would be run for a total of 120 students. What is the current ratio Q of students per class?\n\nAnother way to look at the problem...\nSince the total is 120, RATIO * CLASSES = R*C = 120.....(i)\nwe are looking where ratio increases by 1 and # of classes decreases by 10 = (R+1)(C-10) = RC+C-10R-10=120....(ii)\n(ii)-(i)....\nC=10R+10 = 10(R+1).......\nso # of classes has to be multiple of 10\nAS RC=120.... 10(R+1)*R = 120...................R(R+1) = 12..\nso 12 is a multiple of consecutive numbers ONLY 3 *4 fits in..... and R=3",
+        "instruction": "A school currently maintains a fixed number of students per class. If the ratio of students per class were to be increased by 1, 10 fewer classes would be run for a total of 120 students. What is the current ratio Q of students per class?\nOptions:\n- Q=3\n- Q=4\n- 6\n- 8\n- 12\nLet's think step by step.",
+        "response": "Another way to look at the problem...\nSince the total is 120, RATIO * CLASSES = R*C = 120.....(i)\nwe are looking where ratio increases by 1 and # of classes decreases by 10 = (R+1)(C-10) = RC+C-10R-10=120....(ii)\n(ii)-(i)....\nC=10R+10 = 10(R+1).......\nso # of classes has to be multiple of 10\nAS RC=120.... 10(R+1)*R = 120...................R(R+1) = 12..\nso 12 is a multiple of consecutive numbers ONLY 3 *4 fits in..... and R=3\nTherefore, the answer is Q=3"
+    },
+    {
+        "context": "|x+3| – |4-x| = |8+x| How many S solutions will this equation have?\n\n|x| = x when x >= 0 (x is either positive or 0)\n|x| = -x when x < 0 (note here that you can put the equal to sign here as well x <= 0 because if x = 0,\n|0| = 0 = -0 (all are the same)\nSo the '=' sign can be put with x > 0 or with x < 0. We usually put it with 'x > 0' for consistency.",
+        "instruction": "|x+3| – |4-x| = |8+x| How many S solutions will this equation have?\nOptions:\n- 0\n- 1\n- 2\n- 3\n- 4\nLet's think step by step.",
+        "response": "|x| = x when x >= 0 (x is either positive or 0)\n|x| = -x when x < 0 (note here that you can put the equal to sign here as well x <= 0 because if x = 0,\n|0| = 0 = -0 (all are the same)\nSo the '=' sign can be put with x > 0 or with x < 0. We usually put it with 'x > 0' for consistency.\nTherefore, the answer is 0"
+    }
+]

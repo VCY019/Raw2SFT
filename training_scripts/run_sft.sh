@@ -1,27 +1,32 @@
 max_steps=10
-num_rounds=200
+num_rounds=100
 batch_size=16
 gradient_accumulation_steps=1
 seq_length=512
-num_clients=20
+num_clients=5
 sample_clients=2
-lora_r=32
-lora_alpha=64   # twice of lora_r
-lr=5e-5
+lora_r=16
+lora_alpha=32   # twice of lora_r
+lr=2e-5
 
-# local_data_dir=""       # you may uncomment this line if your data is stored locally and include it in the python command
-dataset_name="vicgalle/alpaca-gpt4"
+local_data_dir="/GPFS/data/yuchifengting-1/OpenFedLLM/data/math_ruige/" # note that there should be a / at the end
+dataset_name="postprocessed_generate_math"
+dataset_filename="$dataset_name.json"
 dataset_sample=20000
-model_name_or_path="meta-llama/Llama-2-7b-hf"
-output_dir=./output
+# model_name_or_path="meta-llama/Llama-2-7b-hf"
+# model_name_or_path="/GPFS/data/xhpang-1/LLM/alpaca_recovered"
+model_name_or_path="/GPFS/data/ruiye-1/models/Wizard-Vicuna-7B-Uncensored"
+template="vicuna"
+output_dir="./output/$dataset_name"
 
-gpu=2
+gpu=1
 fed_alg="fedavg"
 
 CUDA_VISIBLE_DEVICES=$gpu python main_sft.py \
+ --local_data_dir $local_data_dir \
  --learning_rate $lr \
  --model_name_or_path $model_name_or_path \
- --dataset_name $dataset_name \
+ --dataset_name $dataset_filename \
  --dataset_sample $dataset_sample \
  --fed_alg $fed_alg \
  --num_clients $num_clients \
@@ -36,4 +41,4 @@ CUDA_VISIBLE_DEVICES=$gpu python main_sft.py \
  --use_peft \
  --load_in_8bit \
  --output_dir $output_dir \
- --template "alpaca" \
+ --template $template 

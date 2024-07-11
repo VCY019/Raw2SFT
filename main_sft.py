@@ -2,6 +2,7 @@ import copy
 import os
 from tqdm import tqdm
 import numpy as np
+import pdb
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from trl import DataCollatorForCompletionOnlyLM
@@ -16,11 +17,9 @@ script_args, fed_args, peft_config = get_config()
 training_args = get_training_args(script_args, script_args.learning_rate)
 save_config(script_args, fed_args)
 print(script_args, fed_args)
-
 # ===== Load the dataset =====
 dataset = get_dataset(script_args.dataset_name, script_args.local_data_dir)
 dataset = process_sft_dataset(script_args.dataset_name, dataset, script_args.dataset_sample)
-
 # ===== Split the dataset into clients =====
 local_datasets = split_dataset(fed_args, script_args, dataset)
 sample_num_list = [len(local_datasets[i]) for i in range(fed_args.num_clients)]

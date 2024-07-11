@@ -1,0 +1,252 @@
+[
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: The rental charge for a car is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. If a man paid $1.24 in rental charges, how many miles did he drive?\nLet's think step by step. ASSISTANT: ",
+        "question": "The rental charge for a car is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. If a man paid $1.24 in rental charges, how many miles did he drive?\nLet's think step by step.",
+        "answer": "1/4 miles = 45/64 miles\n1/5 miles = 24/64 miles\n1/4 + 24/64 = 1/4 + 1/4 = 1/2\nTotal miles = 1/2 + 24/64 = 38/64\nTherefore, the answer is 38/64"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: 10 women can complete a work in 9 days and 10 children take 12 days to complete the work. How many days will 6 women and 7 children take to complete the work?\nLet's think step by step. ASSISTANT: ",
+        "question": "10 women can complete a work in 9 days and 10 children take 12 days to complete the work. How many days will 6 women and 7 children take to complete the work?\nLet's think step by step.",
+        "answer": "10 women can complete 9/10th of the work in 9 days.\n10 children can complete 1/10th of the work in 12 days.\n6 women can complete 1/10th of the work in 9 days.\n7 children can complete 1/10th of the work in 12 days.\nW = (10*9)/(10-6) = 240/2 = 120\nC = 1/10 * (10*12) = 120\nW + C = 120 + 120 = 240\n10W + 7C = 240\nW = 240/10W + 7C = 1\nTherefore, the answer is 240/10 + 7C = 1 days"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Sum of the squares of three numbers is 351 and the sum of their products taken two at a time is 245. Find the sum?\nLet's think step by step. ASSISTANT: ",
+        "question": "Sum of the squares of three numbers is 351 and the sum of their products taken two at a time is 245. Find the sum?\nLet's think step by step.",
+        "answer": "351 = 2^2 * 3^2\n245 = 2^2 * 3^2\nTherefore, the required sum = 96\nTherefore, the answer is 96"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: If two numbers are in the ratio 2:3. If 10 is added to both of the numbers then the ratio becomes 3:4 then find the smallest number?\nLet's think step by step. ASSISTANT: ",
+        "question": "If two numbers are in the ratio 2:3. If 10 is added to both of the numbers then the ratio becomes 3:4 then find the smallest number?\nLet's think step by step.",
+        "answer": "10 : 3\n10 + 10 = 20\n20 : 3 = 6 : 2\nTherefore, the answer is 6"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: In how many different ways can the letters of the word ‘ARMOUM’ be arranged?\nLet's think step by step. ASSISTANT: ",
+        "question": "In how many different ways can the letters of the word ‘ARMOUM’ be arranged?\nLet's think step by step.",
+        "answer": "121\nRequired number = (1!*2!*3!)/(3!)=121\nTherefore, the answer is 121"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A chair is bought for Rs.300/- and sold at Rs.420/- find gain or loss percentage\nLet's think step by step. ASSISTANT: ",
+        "question": "A chair is bought for Rs.300/- and sold at Rs.420/- find gain or loss percentage\nLet's think step by step.",
+        "answer": "8%\nA sum of money becomes Rs.1200 after 4 years at a certain rate of interest. The interest for 3 years is Rs.90. Find the rate of interest for 1 year\n1200/Rs 3000 = 4/15 => 20%\nCPM of a pencil is Rs 2.50 and SP = Rs 4.50. Find the profit percentage\n2.50/4.50*100 = 53.33%\nA dealer allows a discount of 20% on the marked price of a article. What is the selling price\n125/100 * 150 = 200\nAn article is marked at Rs.7000/- and is sold at a loss of 10%. Find the selling price\nSelling price = 7000/110 * 100 = 6200\nA man purchases an article for Rs.5800 and sells it for Rs.6300. Find the gain per cent\n5800/6300 * 100 = 93.18%\nA person buys an article for Rs.2400 and sells it for Rs.2900. Find the gain percentage\n2400/2900 * 100 = 83.33%\nA person buys an article for Rs.1200 and sells it for Rs.1400. Find the gain percentage\n1200/1400 * 100 = 83.33%\nA person finds a sum of money at 8% per annum. Find the sum\nS.P. = Rs.1150.\nS.I. = Rs.850\n8% of S.I. = Rs.850 * 8/100 = Rs.675\nS.P. = Rs.1150 - 675 = Rs.475\nTherefore, the answer is 475"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A woman complete a journey in 20 hours. She travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.\nLet's think step by step. ASSISTANT: ",
+        "question": "A woman complete a journey in 20 hours. She travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.\nLet's think step by step.",
+        "answer": "14 km\nDistance travelled in first half = Distance travelled in second half = 21 x 2 = 42 km\nDistance travelled in first half = 21 x 2 = 42 km\nDistance travelled in second half = 24 x 2 = 48 km\nTotal distance covered = 42 + 48 = 90 km\nTherefore, the answer is 90 km"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Find the invalid no.from the following series 15, 16, 34, 105, 424, 2124, 12756\nLet's think step by step. ASSISTANT: ",
+        "question": "Find the invalid no.from the following series 15, 16, 34, 105, 424, 2124, 12756\nLet's think step by step.",
+        "answer": "34 is divided by 16, so it is a truncated number.\n16 is divided by 4, so it is a non-truncated number.\n16 is divided by 6, so it is a truncated number.\n16 is divided by 8, so it is a non-truncated number.\n16 is divided by 10, so it is a truncated number.\n16 is divided by 12, so it is a non-truncated number.\n16 is divided by 14, so it is a truncated number.\n16 is divided by 16, so it is a non-truncated number.\nSimilarly, 16 is divided by 18, so it is a truncated number.\n16 is divided by 20, so it is a non-truncated number.\n16 is divided by 22, so it is a truncated number.\n16 is divided by 24, so it is a non-truncated number.\n16 is divided by 26, so it is a truncated number.\n16 is divided by 28, so it is a non-truncated number.\n16 is divided by 30, so it is a truncated number.\n16 is divided by 32, so it is a non-truncated number.\n16 is divided by 34, so it is a truncated number.\n16 is divided by 36, so it is a non-truncated number.\n16 is divided by 38, so it is a truncated number.\n16 is divided by 40, so it is a non-truncated number.\nTherefore, 16 is an invalid number.\nHence, the answer is 16"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: In an election between two candidates, 10% of votes are were declares invalid. First candidate got 3600 votes which were 60% of the total valid votes . The total number of votes enrolled in that election was:\nLet's think step by step. ASSISTANT: ",
+        "question": "In an election between two candidates, 10% of votes are were declares invalid. First candidate got 3600 votes which were 60% of the total valid votes . The total number of votes enrolled in that election was:\nLet's think step by step.",
+        "answer": "8%\nTherefore, the answer is 8%"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Find a 8 digit number that if multiplied by the number 9 or any of its multiplications products (18, 27, 36, 45,..) will result in the multiplication factor repeated (n) number of times.\nLet's think step by step. ASSISTANT: ",
+        "question": "Find a 8 digit number that if multiplied by the number 9 or any of its multiplications products (18, 27, 36, 45,..) will result in the multiplication factor repeated (n) number of times.\nLet's think step by step.",
+        "answer": "8 digit number multiplied by any of the factors (18, 27, 36, 45,...) will result in the multiplication factor repeated (n) number of times.\nThe factors are not 9 but are 18, 27, 36, 45,..\nTherefore, the answer is 8 digit number multiplied by any of the factors (18, 27, 36, 45,..) will result in the multiplication factor repeated (n) number of times"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: What will come in place of the x in the following Number series? 46080, 3840, ?, 48, 8, 2, 1\nLet's think step by step. ASSISTANT: ",
+        "question": "What will come in place of the x in the following Number series? 46080, 3840, ?, 48, 8, 2, 1\nLet's think step by step.",
+        "answer": "96, 64, 32, 16, 8, 4, 2\nTherefore, the answer is 96"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Find the number that fits somewhere into the middle of the series. Some of the items involve both numbers and letters\nLook at this series: C19, E21, __, I25, K27, ... What number should fill the blank?\nLet's think step by step. ASSISTANT: ",
+        "question": "Find the number that fits somewhere into the middle of the series. Some of the items involve both numbers and letters\nLook at this series: C19, E21, __, I25, K27, ... What number should fill the blank?\nLet's think step by step.",
+        "answer": "23\nC19, E21, __, I25, K27, ...\nHere, the number 23 can be taken as the middle number in the series, because the number that follows 25, is K27.\nTherefore, the answer is 23"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: 3, 7, 15, 31, 63, ?\nLet's think step by step. ASSISTANT: ",
+        "question": "3, 7, 15, 31, 63, ?\nLet's think step by step.",
+        "answer": "127\nTherefore, the answer is 127"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Three people are playing cards. What is the probability that a card drawn from a pack of 52 cards will be a diamond or a king?\nLet's think step by step. ASSISTANT: ",
+        "question": "Three people are playing cards. What is the probability that a card drawn from a pack of 52 cards will be a diamond or a king?\nLet's think step by step.",
+        "answer": "08/52*02/51 *01/50\nTherefore, the answer is 08/52×02/51×01/50"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: x is the product of each integer from 1 to 25, inclusive and y=100^k, where k is an integer . What is the greatest value of k for which y is a factor of x?\nLet's think step by step. ASSISTANT: ",
+        "question": "x is the product of each integer from 1 to 25, inclusive and y=100^k, where k is an integer . What is the greatest value of k for which y is a factor of x?\nLet's think step by step.",
+        "answer": "1 is the product of each integer from 1 to 25, inclusive and 100^k, where k is an integer .\nTherefore, the answer is 1"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A box contains 4 red chips and 4 blue chips. If two chips are selected at random without replacement, what is the probability that the chips are different colors?\nLet's think step by step. ASSISTANT: ",
+        "question": "A box contains 4 red chips and 4 blue chips. If two chips are selected at random without replacement, what is the probability that the chips are different colors?\nLet's think step by step.",
+        "answer": "4+4=8\n8C2*8C2=8C12\n4C12\nTherefore, the answer is 4C12"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: On flipping 3 coins together what is the outcomes for at least two tail?\nLet's think step by step. ASSISTANT: ",
+        "question": "On flipping 3 coins together what is the outcomes for at least two tail?\nLet's think step by step.",
+        "answer": "3\nThe number of outcomes when two of the three coins show a tail:\n3C2= 3! / (2!*1!) = 3\nTherefore, the answer is 3"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Water boils at 212°F or 100°C and melts at 32°F or 0°C . If the temperature of the particular day is 35°C , it is equal to\nLet's think step by step. ASSISTANT: ",
+        "question": "Water boils at 212°F or 100°C and melts at 32°F or 0°C . If the temperature of the particular day is 35°C , it is equal to\nLet's think step by step.",
+        "answer": "35 degrees C = 95 degrees F.\n100 degrees F = 37.8 degrees C.\n100 degrees C = 212 degrees F.\n35 degrees C = 95 degrees F.\nTherefore, the answer is 95 degrees F"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: 7% of the total quantity of rice is lost in grinding when a country has to import 6 million tonnes, but when only 7 3/4% is lost, it can import 3 million tonnes. Find the quantity of rice grown in the country.\nLet's think step by step. ASSISTANT: ",
+        "question": "7% of the total quantity of rice is lost in grinding when a country has to import 6 million tonnes, but when only 7 3/4% is lost, it can import 3 million tonnes. Find the quantity of rice grown in the country.\nLet's think step by step.",
+        "answer": "24/7% of the total quantity of rice = 3 million tonnes\nQuantity of rice grown = 100% of the total quantity of rice = 100% of 6 million tonnes\n= 6 million tonnes\n=> Required quantity of rice = 6 million tonnes\nTherefore, the answer is 6 million tonnes"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: George went to a fruit market with certain amount of money. With this money he can buy either 50 oranges or 40 mangoes. He retains 15% of the money for taxi fare and buys 15 mangoes. How many oranges can he buy?\nLet's think step by step. ASSISTANT: ",
+        "question": "George went to a fruit market with certain amount of money. With this money he can buy either 50 oranges or 40 mangoes. He retains 15% of the money for taxi fare and buys 15 mangoes. How many oranges can he buy?\nLet's think step by step.",
+        "answer": "100 mangoes = 100*4 = 400\n15 mangoes = 15*4 = 60\n50 oranges = 50*1 = 50\nTotal = 400+60+50\n= 460\nTherefore, the answer is 460"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: In the interior of a forest, a certain number of apes equal to the square of one-fourth of the total number are playing and having great fun. The remaining four apes are on a hill and the echo of their shrieks by the adjoining hills frightens them. They came and join the apes in the forest and play with enthusiasm. What is the total number of apes?\nLet's think step by step. ASSISTANT: ",
+        "question": "In the interior of a forest, a certain number of apes equal to the square of one-fourth of the total number are playing and having great fun. The remaining four apes are on a hill and the echo of their shrieks by the adjoining hills frightens them. They came and join the apes in the forest and play with enthusiasm. What is the total number of apes?\nLet's think step by step.",
+        "answer": "1/4 of the total number = 4/4 = 1\nRemaining 3/4 of the total number = 3/4 * 4/3 = 12/3\nTotal number = 1 + 12/3 = 13\nTherefore, the answer is 13"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: If m > 0 and y is m percent of x, then, in terms of m, x is what percent of y?\nLet's think step by step. ASSISTANT: ",
+        "question": "If m > 0 and y is m percent of x, then, in terms of m, x is what percent of y?\nLet's think step by step.",
+        "answer": "100%\nTherefore, the answer is 100%"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A man purchased 3 blankets @ Rs.100 each, 5 blankets @ Rs.150 each and two blankets at a certain rate which is now slipped off from his memory. But he remembers that the average price of the blankets was Rs.150. Find the unknown rate of two blankets?\nLet's think step by step. ASSISTANT: ",
+        "question": "A man purchased 3 blankets @ Rs.100 each, 5 blankets @ Rs.150 each and two blankets at a certain rate which is now slipped off from his memory. But he remembers that the average price of the blankets was Rs.150. Find the unknown rate of two blankets?\nLet's think step by step.",
+        "answer": "6 _ 100 + 5 _ 150 = 300\n∴ 200 = 200 × 150 = 300\n∴ 200 × 100 = 300\n∴ rate of two blankets = 200\nTherefore, the answer is 200"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: If x and y are odd integers, which of the following must always be a non-integer\nLet's think step by step. ASSISTANT: ",
+        "question": "If x and y are odd integers, which of the following must always be a non-integer\nLet's think step by step.",
+        "answer": "11\nSince x and y are odd integers, both x and y must be odd numbers. Therefore, the only non-integer number that can be substituted for x and y is 11.\nTherefore, the answer is 11"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: From below option 48 is divisible by which one?\nLet's think step by step. ASSISTANT: ",
+        "question": "From below option 48 is divisible by which one?\nLet's think step by step.",
+        "answer": "48 is divisible by 2, 3, 4, and 16.\nTherefore, the answer is 48 is divisible by 2, 3, 4, and 16"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A no. when divided by the sum of 555 and 445 gives 2times their difference as quotient & 60 as remainder. Find the no. is?\nLet's think step by step. ASSISTANT: ",
+        "question": "A no. when divided by the sum of 555 and 445 gives 2times their difference as quotient & 60 as remainder. Find the no. is?\nLet's think step by step.",
+        "answer": "221\nLet the numbers be x,y. Then 221x + (555 + 445)y = 2(x - y) + 60.\n10x + 270y = 120\nx + y = 18.\nTherefore, the answer is 221"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Mangala completes a piece of work in 18 days, Raju completes the same work in 40 days. If both of them work together, then the number of days required to complete the work is\nLet's think step by step. ASSISTANT: ",
+        "question": "Mangala completes a piece of work in 18 days, Raju completes the same work in 40 days. If both of them work together, then the number of days required to complete the work is\nLet's think step by step.",
+        "answer": "24 days\nTherefore, the answer is 24 days"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: What numbers should go on the bottom line?\n3 6 9 15\n8 2 10 12\n11 8 19 27\n19 10 29 39\n? ? ? ?\nLet's think step by step. ASSISTANT: ",
+        "question": "What numbers should go on the bottom line?\n3 6 9 15\n8 2 10 12\n11 8 19 27\n19 10 29 39\n? ? ? ?\nLet's think step by step.",
+        "answer": "2 6 10 18\nFirst number in each column.\nTherefore, the answer is 2 6 10 18"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: In a certain province in Russia there are 15 cities. If a single road segment connects only two cities, how many road segments are required in order to connect the cities so that each city is connected to all other cities with a single road segment?\nLet's think step by step. ASSISTANT: ",
+        "question": "In a certain province in Russia there are 15 cities. If a single road segment connects only two cities, how many road segments are required in order to connect the cities so that each city is connected to all other cities with a single road segment?\nLet's think step by step.",
+        "answer": "225\nTherefore, the answer is 225"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: What percent is 240 of 90?\nLet's think step by step. ASSISTANT: ",
+        "question": "What percent is 240 of 90?\nLet's think step by step.",
+        "answer": "240/90 * 100 = 26.67%\nTherefore, the answer is 26.67%"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: The average of seven numbers is 18. The average of first three numbers is 14 and the average of last three numbers is 23. What is the middle number?\nLet's think step by step. ASSISTANT: ",
+        "question": "The average of seven numbers is 18. The average of first three numbers is 14 and the average of last three numbers is 23. What is the middle number?\nLet's think step by step.",
+        "answer": "14+23 = 37\n14+x+23 = 37\n14x + 23 = 37\n14x = 37 - 23\nx = 14\nx = 14\nA1+2+A7 = 14\nA1 + 14 + A7 = 14\nA1 + 14 A7 = 14\n14A7 = 14\nA7 = 1\nTherefore, the answer is 1"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Four barrels of water have an average capacity of 8 gallons. What is the maximum possible capacity of the smallest barrel Q if the median is 10 gallons?\nLet's think step by step. ASSISTANT: ",
+        "question": "Four barrels of water have an average capacity of 8 gallons. What is the maximum possible capacity of the smallest barrel Q if the median is 10 gallons?\nLet's think step by step.",
+        "answer": "4X = 8\nX = 2\nLargest = 10\nSmallest = 2\nMaximum capacity of smallest barrel = 2*4 = 8\nTherefore, the answer is 8"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A bag contains 12 white and 18 black balls. 2balls are drawn in succession. What is the probability that first is white and second is black?\nLet's think step by step. ASSISTANT: ",
+        "question": "A bag contains 12 white and 18 black balls. 2balls are drawn in succession. What is the probability that first is white and second is black?\nLet's think step by step.",
+        "answer": "4/21\n4/21\nProbability that first is white and second is black when 2 balls are drawn in succession = Probability of first being white and second being black, when 2 balls are drawn in succession\n= Probability of first being white and second being black, when 2 balls are drawn in succession\n= 12/21 * 18/20\n= 12/21 * 18/20\n= 7/12 * 9/11\n= 7/25 * 9/26\n= 35/625\nTherefore, the answer is 4/21"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A and B can do a work in 5 days and 10 days respectively. A starts the work and B joins him after 2 days. In how many days can they complete the remaining work?\nLet's think step by step. ASSISTANT: ",
+        "question": "A and B can do a work in 5 days and 10 days respectively. A starts the work and B joins him after 2 days. In how many days can they complete the remaining work?\nLet's think step by step.",
+        "answer": "3 days\nA + B = 5 × 5 + 10 × 2 = 70\nSo 1 = 70 ÷ 5 = 14\nTherefore, the answer is 14"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Divide 71 into 2 parts such that 1 part exceeds the other by 8. What are the 2 no.'s in that part?\nLet's think step by step. ASSISTANT: ",
+        "question": "Divide 71 into 2 parts such that 1 part exceeds the other by 8. What are the 2 no.'s in that part?\nLet's think step by step.",
+        "answer": "1 part exceeds the other by 8\n1 part = 70\n2nd part = 71-70 = 1\n1 part = 71\nNow we know that 1 part exceeds the other by 8\n1 part = 71 - 8 = 63\nThe other part = 71 - 63 = 8\nNow, the two parts are\n1 part = 71 - 8 = 63\n2nd part = 71 - 63 = 8\nTherefore, the answer is 63, 8"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Find the value of 72517 x 9999 = m?\nLet's think step by step. ASSISTANT: ",
+        "question": "Find the value of 72517 x 9999 = m?\nLet's think step by step.",
+        "answer": "72517 x 9999 = (72517 x 10000) - 72517\n= 725170000 - 72517\n= 725152443\nTherefore, the answer is 725152443"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A does a work in 10 days and B does the same work in 5 days. In how many days they together will do the same work ?\nLet's think step by step. ASSISTANT: ",
+        "question": "A does a work in 10 days and B does the same work in 5 days. In how many days they together will do the same work ?\nLet's think step by step.",
+        "answer": "8 days.\nProbability that A will do work in 1 day = 1/10 = 1/10\nProbability that B will do work in 1 day = 1/5 = 1/5\nProbability that both A and B will do work in 1 day = 1/10*1/5 = 1/25\nProbability that A will do work in 1 day and B will do work in 1 day = 1/25\nProbability that A will do work in 1 day and B will do work in 1 day = 1/25\nProbability that B will do work in 1 day and A will do work in 1 day = 1/25\nBy multiplication rule of probability,\nProbability that both A and B will do work in 1 day = 1/25 * 1/25 = 1/625\nTherefore, the answer is 8 days"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: What is the diffference between the place value and face value of 4 in the numeral 2694?\nLet's think step by step. ASSISTANT: ",
+        "question": "What is the diffference between the place value and face value of 4 in the numeral 2694?\nLet's think step by step.",
+        "answer": "0 - 4\nTherefore, the answer is 4"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Peeta asks Katniss, 'It is 6 am as per my watch right now.Do you know what will be the time 23, 999, 998 hours later?'\nKatniss knows the answer. Do you ?\nLet's think step by step. ASSISTANT: ",
+        "question": "Peeta asks Katniss, 'It is 6 am as per my watch right now.Do you know what will be the time 23, 999, 998 hours later?'\nKatniss knows the answer. Do you ?\nLet's think step by step.",
+        "answer": "23, 999, 998 hours later = 23, 999, 999 hours later = 4, 230, 001 years later.\nTherefore, the answer is 4, 230, 001 years later"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: If 180/x is an integer and 108/x is an integer, which of the following must be true?\nI. 9/x is an integer.\nII. 12/x is an integer.\nIII. 36/x is an integer.\nLet's think step by step. ASSISTANT: ",
+        "question": "If 180/x is an integer and 108/x is an integer, which of the following must be true?\nI. 9/x is an integer.\nII. 12/x is an integer.\nIII. 36/x is an integer.\nLet's think step by step.",
+        "answer": "22/x is an integer\nTherefore, the answer is 22/x is an integer."
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Jones covered a distance of 50 miles on his first trip. On a later trip he traveled 300 miles while going three times as fast. His new time compared with the old time was:\nLet's think step by step. ASSISTANT: ",
+        "question": "Jones covered a distance of 50 miles on his first trip. On a later trip he traveled 300 miles while going three times as fast. His new time compared with the old time was:\nLet's think step by step.",
+        "answer": "2/3; 1 hr. 30 min.\nCovered distance in the first trip = 50 miles\nDistance covered in the second trip = (300 x 3) = 900 miles\nThus, Time taken in the first trip = (50 x 3)/900 = (5 x 30)/900 = 2/3\nNow, Time taken in the second trip = (900 x 3)/1500 = 9/20\nTime taken in the second trip = 9/20 = 2/3\nTherefore, the answer is 2/3; 1 hr. 30 min."
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: In how many ways can the letters of the word ASTERIX be arranged in a row so that the vowels appear in alphabetic order?\nLet's think step by step. ASSISTANT: ",
+        "question": "In how many ways can the letters of the word ASTERIX be arranged in a row so that the vowels appear in alphabetic order?\nLet's think step by step.",
+        "answer": "7 letters are there in the word, the vowels are OXI, so we have 5 steps to arrange the vowels.\n1. order of OXI can be two ways.\n2. order of AST and order of IX can be two ways.\n3. order of X and order of can be 3! ways.\n4. order of and order of can be 2! ways.\n5. order of and order of can be 1! ways.\nTotal number of ways = 5 x 2 x 3 x 2 x 1 = 120\nTherefore, the answer is 120"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: It is given that 2^32 + 1 is exactly divisible by a certain number. Which one of the following is also divisible by the same number R?\nLet's think step by step. ASSISTANT: ",
+        "question": "It is given that 2^32 + 1 is exactly divisible by a certain number. Which one of the following is also divisible by the same number R?\nLet's think step by step.",
+        "answer": "2^32 + 1 = 4294967296\nNow, we need to find whether the number 4294967296, is divisible by R.\n4294967296 = 64 × 67 × 75\nIf we check the divisors of the number 4294967296 then we find that the number has 64 as divisor.\nTherefore, the answer is 64"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: How many minutes are there in two right angles?\nLet's think step by step. ASSISTANT: ",
+        "question": "How many minutes are there in two right angles?\nLet's think step by step.",
+        "answer": "1 min = 60 sec\nTherefore, the answer is 60 sec × 2 = 120 sec = 2 × 60\nTherefore, the answer is 2 × 60 sec = 120 sec"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A rectangular rug with side lengths of 2 feet and 7 feet is placed on a square floor that has an area of 64 square feet. If the surface of the rug does not extend beyond the area of the floor, what fraction of the area of the floor is not covered by the rug?\nLet's think step by step. ASSISTANT: ",
+        "question": "A rectangular rug with side lengths of 2 feet and 7 feet is placed on a square floor that has an area of 64 square feet. If the surface of the rug does not extend beyond the area of the floor, what fraction of the area of the floor is not covered by the rug?\nLet's think step by step.",
+        "answer": "1/6\nRectangle = 2 x 7 = 14 feet\nArea of rectangle = 14 x 6 = 84 sq.feet\nArea of Floor =64 sq.feet\nUncovered area = 84 - 64 = 20 sq.feet\n= 1/6\nTherefore, the answer is 1/6"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: A football coach must choose 5freshers from a team of 12players. How many different ways can the coach choose the freshers?\nLet's think step by step. ASSISTANT: ",
+        "question": "A football coach must choose 5freshers from a team of 12players. How many different ways can the coach choose the freshers?\nLet's think step by step.",
+        "answer": "12C5\n= 42\nTherefore, the answer is 42"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Find the value of y from (12)^3 x 6^3 ÷ 432 = y?\nLet's think step by step. ASSISTANT: ",
+        "question": "Find the value of y from (12)^3 x 6^3 ÷ 432 = y?\nLet's think step by step.",
+        "answer": "12^3 x 6^3 ÷ 432 = (12^3 x 6^3) ÷ 432 = 12^3 x 6^3 ÷ 432 = 12^6 x 6^3 ÷ 432 = 12^6 x 6^3 = 12^6\nTherefore, the answer is 12^6"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Right now, Al and Eliot have bank accounts, and Al has more money than Eliot. The difference between their two accounts is 1/10 of the sum of their two accounts. If Al’s account were to increase by 10% and Eliot’s account were to increase by 20%, then Al would have exactly $22 more than Eliot in his account. How much money does Eliot have in his account right now?\nLet's think step by step. ASSISTANT: ",
+        "question": "Right now, Al and Eliot have bank accounts, and Al has more money than Eliot. The difference between their two accounts is 1/10 of the sum of their two accounts. If Al’s account were to increase by 10% and Eliot’s account were to increase by 20%, then Al would have exactly $22 more than Eliot in his account. How much money does Eliot have in his account right now?\nLet's think step by step.",
+        "answer": "22\nLet the amount in Al's account be x. Then, the amount in Eliot's account is 90 - 2x.\nAl's account increases by 10% of 2x = (2x x 10/100) = 0.2x.\nEliot's account increases by 20% of 90 - 2x = (0.90 - 2x x 20/100) = 0.18x.\nAl's amount in his account increases by 0.2x = 2.2.\nEliot's amount in his account increases by 0.18x = 1.8.\nTherefore, x = 100 - 22 = 78.\nTherefore, the answer is 78"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: What is the probability Q of randomly selecting an arrangement of the letters of the wordMEDITERRANEANin which the first letter is E and the last letter is R?\nLet's think step by step. ASSISTANT: ",
+        "question": "What is the probability Q of randomly selecting an arrangement of the letters of the wordMEDITERRANEANin which the first letter is E and the last letter is R?\nLet's think step by step.",
+        "answer": "6C3 * 7C2\nTherefore, the answer is 42"
+    },
+    {
+        "prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: There r 4 prime numbers in ascending order. The multiplication of first 3 is 385 and that of last 3is 1001. what is the last number is\nLet's think step by step. ASSISTANT: ",
+        "question": "There r 4 prime numbers in ascending order. The multiplication of first 3 is 385 and that of last 3is 1001. what is the last number is\nLet's think step by step.",
+        "answer": "111\nTotal of the product of first 4 numbers are = 385 x 111 = 4376\nLast number product = 1001\nLast number is 111\nTherefore, the answer is 111"
+    }
+]
