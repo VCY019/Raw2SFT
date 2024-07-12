@@ -19,8 +19,28 @@ Instruction: Given the next [document], create only one [question] and [answer] 
 [document]: {}
 ### Response:\n"""
 
-# The current med template with 2 examples
+# The current med template with 2 shortest examples
 Wish_QA_MED_TEMPLATE = """
+Instruction:  Given the next [document], create a [question] and [answer] pair that are grounded in the main point of the document, don't add any additional information that is not in the document. The [question] is by an information-seeking user and the [answer] is provided by a helping AI Agent.
+
+[document]: Background: Hydrochloric acid (HCl) is commonly used to clear obstructions in central venous catheters (CVC).\n\nMethods: To determine if HCl adversely affects the integrity of a CVC we infused 0.1 N HCl daily into CVC in vitro. At weekly intervals sections of the CVC were removed and examined using scanning electron microscopy.\n\nResults: Over 8 weeks, no damage to the CVC was visible.
+
+### Response:
+[question]: Does the use of hydrochloric acid damage silicone rubber central venous catheters?
+[answer]: HCl administration poses no threat to the structural integrity of a CVC.
+
+[document]: Methods: Two cases are reported in which percutaneous biopsy of resectable liver tumours was performed unnecessarily and resulted in needle track seeding.\n\nResults: In both instances patients who underwent potentially curative liver resection were rendered incurable because of biopsy track recurrence.
+
+### Response:
+[question]: Percutaneous biopsy of operable liver lesions: is it necessary or advisable?
+[answer]: The common practice of performing percutaneous ultrasound or CT guided biopsy of potentially resectable lesions in the liver is generally neither necessary nor desirable.
+
+[document]: {}
+
+### Response:\n"""
+
+# The previous med template with 2 long examples
+Wish_QA_MED_long_TEMPLATE = """
 Instruction:  Given the next [document], create a [question] and [answer] pair that are grounded in the main point of the document, don't add any additional information that is not in the document. The [question] is by an information-seeking user and the [answer] is provided by a helping AI Agent.
 
 [document]: Background: Preterm infants have reduced liver stores of vitamin A at birth compared to term born infants. Current guidelines recommend an intake of 700-1500 IU/kg/day vitamin A, and there is evidence to support higher doses for infants with significant lung disease. The importance of appropriate early nutrition for preterm infants is increasingly becoming apparent.\n\nObjectives: To examine whether preterm infants admitted to a UK neonatal unit received the currently recommended amounts of vitamin A during the first 4 weeks of life, and to identify the feeding patterns associated with optimal vitamin A intake.\n\nDesign: Retrospective case note review.\n\nSetting: UK tertiary neonatal unit.\n\nPopulation: 36 preterm infants with a median gestation of 30 weeks (range 26-33 weeks) and median birth weight of 1305 g (range 880-1800 g).\n\nMain outcome measure: Mean daily total intake of vitamin A in each of the first 4 weeks of life.\n\nResults: Despite a policy of introducing intravenous lipid supplemented with fat soluble vitamins on day 2, only four infants (11%) consistently met the recommended daily intake of vitamin A during the first 2 weeks of life. Adequacy of vitamin A intake in the first 2 weeks of life was not predicted by gestation or pattern of feeding.
@@ -39,8 +59,9 @@ Instruction:  Given the next [document], create a [question] and [answer] pair t
 
 ### Response:\n"""
 
-# The previous med template with 3 examples
-Wish_QA_MED_Falcon_TEMPLATE = """
+
+# The previous med template with 3 long examples
+Wish_QA_MED_Falcon_long_TEMPLATE = """
 Instruction:  Given the next [document], create a [question] and [answer] pair that are grounded in the main point of the document, don't add any additional information that is not in the document. The [question] is by an information-seeking user and the [answer] is provided by a helping AI Agent.
 
 [document]: Unlabelled: The Institute of Medicine (IOM) has recommended instituting clinical education reforms to ensure all health profession graduates acquire five core competencies; providing patient-centered care, working in interdisciplinary teams, employing evidence-based practice, applying quality improvement and utilizing informatics. The IOM has identified 28 specific skills associated with these competencies. This qualitative, exploratory study was conducted to begin to examine the extent to which physical therapy clinical instructors provide students with instruction the students perceived as promoting the acquisition of these skills.\n\nMethods: Two groups of physical therapy students enrolled in a 3-year DPT program (7 on a first-year clinical education experience and 17 on a final year experience) maintained journals describing the types of learning activities used by clinical instructors to promote the acquisition of the competencies. The authors employed NVivo qualitative data analysis software to code the journal entries using 28 codes derived from the skills associated with the five core competencies.\n\nResults: Of the 327 coded learning activities, just over 50% were related to skills associated with providing patient-centered care (21.4%) and working in interdisciplinary teams (30.0%). The remaining 49.6% of the learning activities cited by students were related to skills associated with employing evidence-based practice (18.3%), applying quality improvement (16.5%) and utilizing informatics (13.8%).\n\nDiscussion: Based on student perceptions, physical therapy clinical instructors are providing learning activities that allow students to acquire skills associated with all five of the IOM competencies. However, students reported the least emphasis on instruction pertaining to the competencies of applying quality improvement and utilizing informatics.
@@ -66,7 +87,8 @@ Instruction:  Given the next [document], create a [question] and [answer] pair t
 ### Response:\n"""
 
 TEMPLATE_DICT = {
-    'Wish_QA_MED_Falcon': Wish_QA_MED_Falcon_TEMPLATE,
-    'Wish_QA_MED': Wish_QA_MED_TEMPLATE, 
-    'Wish_QA_Falcon': Wish_QA_Falcon_TEMPLATE
+    'Wish_QA_MED_Falcon_long': Wish_QA_MED_Falcon_long_TEMPLATE,
+    'Wish_QA_MED_long': Wish_QA_MED_long_TEMPLATE, 
+    'Wish_QA_Falcon': Wish_QA_Falcon_TEMPLATE,
+    'Wish_QA_MED': Wish_QA_MED_TEMPLATE
 }

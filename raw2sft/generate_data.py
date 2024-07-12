@@ -54,41 +54,70 @@ test_data = json.load(open(args.old_human_json_path))["test"]
 # You could find corresponding templates in template.py
 TEMPLATE = TEMPLATE_DICT[args.template]
 prompts = [TEMPLATE.format(sample['text']) for sample in old_human_train_data]
+outputs = llm.generate(prompts, sampling_params)
 
 human_train_data = []
 gen_train_data = []
 
-# Some generated samples may not contain the question and answer, retry up to 5 times. If not contain yet, this generated sample and corresponding human sample will be discarded.
-for prompt, old_human_train_datapoint in zip(prompts, old_human_train_data):
-    try_times = 0
-    while try_times < 5:
-        output = llm.generate(prompt, sampling_params)
-        generated_text = output[0].outputs[0].text
+retry_prompts = []
+retry_datapoints = []
+
+# Process the initial outputs
+for output, old_human_train_datapoint in zip(outputs, old_human_train_data):
+    generated_text = output.outputs[0].text
+    question, answer = extract_first_question_and_answer(generated_text)
+
+    # If question or answer is None, add to retry lists
+    if question is None or answer is None:
+        retry_prompts.append(TEMPLATE.format(old_human_train_datapoint['text']))
+        retry_datapoints.append(old_human_train_datapoint)
+    else:
+        # Create new human and generated training data points
+        human_train_datapoint = old_human_train_datapoint
+        gen_train_datapoint = {
+            "text": old_human_train_datapoint["text"],
+            "input": "",
+            "instruction": question,
+            "output": answer
+        }
+        human_train_data.append(human_train_datapoint)
+        gen_train_data.append(gen_train_datapoint)
+
+# Retry generating outputs up to 4 additional times if necessary
+for i in range(4):
+    if not retry_prompts:
+        break  # Exit loop if there are no prompts to retry
+
+    # Generate outputs for retry prompts
+    retry_outputs = llm.generate(retry_prompts, sampling_params)
+    
+    # Reset retry lists for next iteration
+    retry_prompts = []
+    new_retry_datapoints = []
+
+    # Process the retry outputs
+    for output, old_human_train_datapoint in zip(retry_outputs, retry_datapoints):
+        generated_text = output.outputs[0].text
         question, answer = extract_first_question_and_answer(generated_text)
-        if args.test:
-            print("[Generated_text]:")
-            print(generated_text)
-            print("[Text]:")
-            print(old_human_train_datapoint["text"])
-            print("[Generated Question]:")
-            print(question)
-            print("[Generated Answer]:")
-            print(answer)
-            print("=" * 100)
+
+        # If question or answer is None, add to retry lists again
         if question is None or answer is None:
-            try_times += 1
+            retry_prompts.append(TEMPLATE.format(old_human_train_datapoint['text']))
+            new_retry_datapoints.append(old_human_train_datapoint)
         else:
-            break
-    if try_times == 5:
-        continue
-    human_train_datapoint = old_human_train_datapoint
-    gen_train_datapoint = {}
-    gen_train_datapoint["text"] = old_human_train_datapoint["text"]
-    gen_train_datapoint["input"] = ""
-    gen_train_datapoint["instruction"] = question
-    gen_train_datapoint["output"] = answer
-    human_train_data.append(human_train_datapoint)
-    gen_train_data.append(gen_train_datapoint)
+            # Create new human and generated training data points
+            human_train_datapoint = old_human_train_datapoint
+            gen_train_datapoint = {
+                "text": old_human_train_datapoint["text"],
+                "input": "",
+                "instruction": question,
+                "output": answer
+            }
+            human_train_data.append(human_train_datapoint)
+            gen_train_data.append(gen_train_datapoint)
+    
+    # Update retry datapoints for next iteration
+    retry_datapoints = new_retry_datapoints
 
 if args.test:
     exit()
